@@ -65,9 +65,7 @@ if __name__ == '__main__':
     ttss = re.sub(r'</a.*?>', '', ttss,0, re.S)
     print ttss
     test = 'python is the best language , pretty good !'
-
     p = re.findall('p+', test)
-
     print(p)
     # s = file('Google.htm').read()
     # news = filter_tags(s)
